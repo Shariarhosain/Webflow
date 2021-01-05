@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Roboto', sans-serif; 
+}
+a:hover,
+a{
+    text-decoration: none;
+}
+ul,li{
+    
+   list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+
+
+h1{
+    padding-bottom: 15px;
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+h4{
+    padding-top: 45px;
+   
+    margin-bottom: 42px;
+    
+}
+h5{
+    padding-bottom: 5px;
+}
+p{
+    padding-bottom: 25px;
+}
+.headline{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.header{
+        width: 500px;
+    padding-left: 45px;
+
+}
+.header_contant{
+    width: 460px;
+    padding-left: 54px;
+}
+.header_contant .button a{
+    padding:  15px 25px;
+    margin-left: 1px;
+    border-radius: 4px;
+       transition:linear .3s;
+
+}
+.header_contant .button a:hover{
+   
+     background: #237be5;
+    color:white;
+    transition:linear .3s;
+}
+.header_img img{
+       width: 500px;
+       height: 330px;
+       object-fit: contain;
+       margin-left: 60px;
+}
+ .header_contant .risk{
+    margin-top: 30px;
+    display: block;
+}
+/*--headline css end --*/
+
+.partner{
+    background: #237be51c;
+    text-align: center;
+    padding: 35px;
+}
+.partner_logo ul li{
+    display: inline-block;
+    margin-top: 23px;
+    padding: 0 25px;
+}
+.partner_logo li img:hover{
+    transform: scale(1.1);
+    transition: all linear .5s;
+}
+/*--partner css end--*/
+
+.problem{
+    padding-top: 150px;
+}
+.problem_main img:hover{
+    transform: rotate(-6deg);
+    transition: all linear .5s;
+}
+.heading_probrm{
+    padding-bottom: 50px;
+}
+.heading_probrm p{
+    width: 50%;
+    display: inline-block;
+    
+}
+.problem_main{
+
+    margin-bottom: 70px;
+    padding: 0 100px;
+}
+.part2{
+    padding-left: 65px;
+}
+/*--problem css end--*/
+
+
+.problem_fix{
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+.problem_fix_img{
+    padding-bottom: 100px;
+}
+/*--problem_fix css end--*/
+.result_hed{
+        padding: 0 155px;
+}
+.result_contant{
+        padding: 61px 100px;
+}
+.contant_box{
+       border: 5px solid #237be52e;
+       border-radius: 10px;
+       padding: 0 50px;
+       box-shadow: 0 0 17px 3px #237be547;
+}
+.contant_box:hover{
+    transform: rotate(-6deg);
+    transition: all linear .5s;
+}
+.result_he{
+        padding-left: 75px;
+}
+.hedr{
+    background-color: #237be561;
+}
+.contant_box img{
+    padding: 60px;
+}
+.ulpart1{
+    padding-left: 0;
+    display: inline-block;
+}
+.ulpart1 span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.ulpart2 span{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.ulpart2{
+    display: inline-block;
+}
+.result_hedr{
+    padding-right: 66px;
+}
+/*--result css end--*/
+.benifit{
+    padding: 100px 0;
+/*    margin-bottom: 50px;*/
+}
+.benifit_box{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.benifit_box li img{
+        padding-left: 29px;
+    padding-bottom: 24px;
+}
+
+.benifit_box li img:hover{
+transform:scale(1.1);
+    transition: all linear .3s;
+/*    cursor: all-scroll;*/
+    
+}
+.benifit_box li
+{
+    
+   padding: 0 85px;
+    padding-top: 71px;
+}
+/*---benifit css end--*/
+.visitor{
+    padding: 80px;
+    color: white;
+    background-color: #237be5;
+}
+.visit a{
+    color: white !important;
+}
+.visit a:hover{
+    background-color: #fff !important;
+    color: #237be5 !important;
+}
+.hed_img img:hover{
+    transform: scale(1.05);
+    
+     box-shadow: 0 0 10px white,
+         0 0 60px white,
+         0 0 90px white;
+    transition: all linear .3s;
+}
+.hed_img img{
+    width: auto;
+    border-radius: 10px !important;
+   
+}
+/*--visitor css end--*/
+.video{
+        padding: 100px 160px;
+}
+.video1{
+    padding-right: 65px;
+}
+.video img{
+    max-width: 100%;
+}
+.video img:hover{
+    transform:rotate(10deg);
+    transition:all linear  .5s;
+}
+/*--video css end--*/
+.logo{
+       padding: 10px 0;
+    background-color: #237be514;
+}
+.logo1 a img{
+        padding: 0 10px;
+}
+.logo1 a img:hover{
+        background-color: #237be547;
+  
+}
+.logo1 h5{
+    font-weight: 800;
+    letter-spacing: 3px;
+}
